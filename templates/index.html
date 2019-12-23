@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% set active_page = "home" %}
+{% block content %}
+{{ super () }}
+
+<div class="jumbotron jumbotron-fluid my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="assets/img/logo.png" style="width:100%"/>
+      </div>
+      <div class="col-md-8">
+         <h1 class="display-3">{{ contents.name }}</h1>
+         <div class="lead">{{ contents.tagline }}</div> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-6">
+      <img src="{{ contents.photo }}" class="img-fluid rounded img-thumbnail" alt="Group Photo">
+  </div>
+
+  <div class="col-6">
+    <h3>Overview</h3>
+      {{ contents.overview }}
+    <h5>Key research areas</h5>
+    <ul>
+      {% for item in contents.research %}
+        <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div> <!-- The team photo and overview -->
+
+<h3 class="my-3"><span class="badge badge-secondary">News</span></h3>
+
+<div class="card-deck my-5">
+
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Recent presentations</h4>
+      <p class="card-text">
+        <ul>
+            {% for presentation in presentations %}
+              <li>{{ presentation.title }}, {{ presentation.event }}, {{ presentation.date }}.</li>
+            {% endfor %}
+        </ul>
+      </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="presentations.html">View all presentations</a></small>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Recent publications</h4>
+        <p class="card-text">
+          <ul>
+            {% for publication in publications %}
+               {% if publication.url %}
+                 <li><a href="{{ publication.url }}">{{ publication.title }}</a>, {{ publication.journal }}, {{ publication.year }}.</li>
+               {% else %}
+                 <li>{{ publication.title }}, {{ publication.journal }}, {{ publication.year }}.</li>
+               {% endif %}
+            {% endfor %}
+          </ul>
+        </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="publications.html">View all publications</a></small>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Recent activities</h4>
+        <p class="card-text">
+        <ul>
+          {% for activity in activities %}
+            <li>{{ activity.date }}: {{ activity.description }}</li>
+          {% endfor %}
+        </ul>
+        </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"><a href="activities.html">View all activities</a></small>
+    </div>
+  </div>
+
+</div>
+
+{% endblock %}

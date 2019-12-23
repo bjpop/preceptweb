@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Team{% endblock %}
+{% set active_page = "team" %}
+{% block content %}
+{{ super () }}
+
+<h1 class="display-4 my-5">Team members</h1>
+
+  {% for person in contents %}
+    <div class="card my-5">
+      <h4 class="card-header">{{ person.name }}</h4>
+      <div class="card-body">
+      <h6 class="card-subtitle mb-2 text-muted">{{ person.role }}</h6>
+
+        <p class="card-text">
+	  <div class="row">
+            <div class="col-4">
+              <img class="img-thumbnail mr-3" src="{{ person.photo }}" alt="{{ person.name }}">
+            </div>
+
+            <div class="col-8">
+
+              <dl class="row">
+                {% if person.level %}
+                  <dt class="col-sm-3">Position</dt>
+                  <dd class="col-sm-9">{{ person.level }}</dd>
+                {% endif %}
+                {% if person.affiliation %}
+                  <dt class="col-sm-3">Affiliation</dt>
+                  <dd class="col-sm-9">{{ person.affiliation }}</dd>
+                {% endif %}
+                {% if person.publications %}
+                  <dt class="col-sm-3">Publications</dt>
+                  <dd class="col-sm-9">{{ person.publications}}</dd>
+                {% endif %}
+                {% if person.phone %}
+                  <dt class="col-sm-3">Phone</dt>
+                  <dd class="col-sm-9">{{ person.phone }}</dd>
+                {% endif %}
+                {% if person.mobile %}
+                  <dt class="col-sm-3">Mobile</dt>
+                  <dd class="col-sm-9">{{ person.mobile }}</dd>
+                {% endif %}
+                {% if person.email %}
+                  <dt class="col-sm-3">Email</dt>
+                  <dd class="col-sm-9"><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+                {% endif %}
+              </dl>
+            </div>
+	  </div>
+
+          <h4 class="my-3">Career summary</h4>
+          {{ person.career }}
+      </div>
+    </div>
+
+  {% endfor %}
+
+{% endblock %}
