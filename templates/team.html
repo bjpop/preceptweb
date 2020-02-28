@@ -6,11 +6,12 @@
 
 <h1 class="display-4 my-5">Team members</h1>
 
+<p>The research team includes both national and international leaders in prostate cancer research, as well as a number of researchers new to the field, and specifically promotes the contribution of emerging and mid-career researchers. This team has a track record of original, high-impact discoveries and recurrent funding, and have the necessary industry collaborations to facilitate future translation of their findings.</p>
+
   {% for person in contents %}
     <div class="card my-5">
       <h4 class="card-header">{{ person.name }}</h4>
       <div class="card-body">
-      <h6 class="card-subtitle mb-2 text-muted">{{ person.role }}</h6>
 
         <p class="card-text">
 	  <div class="row">
@@ -21,29 +22,17 @@
             <div class="col-8">
 
               <dl class="row">
-                {% if person.level %}
-                  <dt class="col-sm-3">Position</dt>
-                  <dd class="col-sm-9">{{ person.level }}</dd>
+                {% if person.role %}
+                  <dt class="col-sm-3">Role</dt>
+                  <dd class="col-sm-9">{{ person.role }}</dd>
                 {% endif %}
                 {% if person.affiliation %}
                   <dt class="col-sm-3">Affiliation</dt>
                   <dd class="col-sm-9">{{ person.affiliation }}</dd>
                 {% endif %}
-                {% if person.publications %}
-                  <dt class="col-sm-3">Publications</dt>
-                  <dd class="col-sm-9">{{ person.publications}}</dd>
-                {% endif %}
-                {% if person.phone %}
-                  <dt class="col-sm-3">Phone</dt>
-                  <dd class="col-sm-9">{{ person.phone }}</dd>
-                {% endif %}
-                {% if person.mobile %}
-                  <dt class="col-sm-3">Mobile</dt>
-                  <dd class="col-sm-9">{{ person.mobile }}</dd>
-                {% endif %}
-                {% if person.email %}
-                  <dt class="col-sm-3">Email</dt>
-                  <dd class="col-sm-9"><a href="mailto:{{ person.email }}">{{ person.name }}</a></dd>
+                {% if person.url%}
+                  <dt class="col-sm-3">Profile</dt>
+                  <dd class="col-sm-9">{{ person.url }}</dd>
                 {% endif %}
               </dl>
             </div>

@@ -1,11 +1,6 @@
-- title: "Classifying DNA mismatch repair variant pathogenicity using protein structure and function predictions" 
-  event: University of Melbourne Centre for Cancer Research Seminar 
-  authors: [Bernie Pope]
-  date: 15 May 2019
-  kind: Oral Presentation 
-
-- title: "Predictors of class: Using protein structure and function information to predict and understand mismatch repair variant pathogenicity" 
-  event: The International Society for Gastrointestinal Hereditary Tumours (InSiGHT), biennial meeting, Auckland, New Zealand
-  authors: [Bernard Pope]
-  date: 21 March 2019 
-  kind: Oral Presentation 
+- title: "PRECEPT – PRostatE CancEr Prognosis and Treatment"
+  authors: [Niall Corcoran]
+  media:
+     - url: assets/img/precept_about_slides.pdf
+       title: "PDF slides"
+  abstract: An overview of the PRECEPT project

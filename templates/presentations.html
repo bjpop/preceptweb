@@ -11,7 +11,7 @@
       <ul style="list-style-type:none">
       <li>
         <details>
-          <summary>{{ item.title }}, {{ item.event}}, {{ item.date }}</summary>
+		<summary>{{ item.title }} {% if item.event %}, {{ item.event}} {% endif %} {% if item.date %}, {{ item.date }} {% endif %}</summary>
           <div class="card card-body my-3">
             <dl class="row">
 

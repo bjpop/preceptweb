@@ -7,11 +7,10 @@
 <div class="jumbotron jumbotron-fluid my-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-6">
         <img src="assets/img/logo.png" style="width:100%"/>
       </div>
-      <div class="col-md-8">
-         <h1 class="display-3">{{ contents.name }}</h1>
+      <div class="col-md-6">
          <div class="lead">{{ contents.tagline }}</div> 
       </div>
     </div>
@@ -27,12 +26,6 @@
   <div class="col-6">
     <h3>Overview</h3>
       {{ contents.overview }}
-    <h5>Key research areas</h5>
-    <ul>
-      {% for item in contents.research %}
-        <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
   </div>
 
 </div> <!-- The team photo and overview -->
@@ -47,7 +40,7 @@
       <p class="card-text">
         <ul>
             {% for presentation in presentations %}
-              <li>{{ presentation.title }}, {{ presentation.event }}, {{ presentation.date }}.</li>
+	    <li>{{ presentation.title }} {% if presentation.event %}, {{ presentation.event }} {% endif %} {% if presentation.date %}, {{ presentation.date }}{% endif %}</li>
             {% endfor %}
         </ul>
       </p>
