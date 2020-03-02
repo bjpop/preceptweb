@@ -156,6 +156,10 @@ def render_pages(options, jinja_env):
         .add_content("activities", options.templates, "activities.yaml", lambda xs: xs[:MAX_LATEST_ACTIVITIES]) \
         .render_page(jinja_env, options.outdir)
 
+    Template("about.html") \
+        .add_content("contents", options.templates, "about.yaml") \
+        .render_page(jinja_env, options.outdir)
+
     Template("funding.html") \
         .add_content("contents", options.templates, "funding.yaml") \
         .render_page(jinja_env, options.outdir)

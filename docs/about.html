@@ -1,33 +1,20 @@
 <!doctype html>
 <html lang="en">
   <head>
-    {% block head %} 
-    <title>PRECEPT: {% block title %}{% endblock %}</title>
+     
+    <title>PRECEPT: About</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="assets/css/site.css" rel="stylesheet" />
-    {% endblock %}
-  </head>
+      </head>
 
   <body>
       <div class="container"> 
       <!-- <div class="container-fluid"">  -->
-      {% block content %}
-
-      {% set navigation_bar = [
-          ('index.html', 'home', 'Home'),
-          ('about.html', 'about', 'About'),
-          ('team.html', 'team', 'Team'),
-          ('publications.html', 'publications', 'Publications'),
-          ('presentations.html', 'presentations', 'Presentations'),
-          ('funding.html', 'funding', 'Funding'),
-          ('contact.html', 'contact', 'Contact')
-      ] -%}
-      {% set active_page = active_page|default('home') -%}
-
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="index.html">PRECEPT</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,15 +22,23 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
 
-                {% for href, id, caption in navigation_bar %}
-                  <a{% if id == active_page %} class="nav-item nav-link active"{% else %} class="nav-item nav-link"{% endif
-                  %}href="{{ href|e }}">{{ caption|e }}</a>
-                {% endfor %}
-
+                                  <a class="nav-item nav-link"href="index.html">Home</a>
+                                  <a class="nav-item nav-link active"href="about.html">About</a>
+                                  <a class="nav-item nav-link"href="team.html">Team</a>
+                                  <a class="nav-item nav-link"href="publications.html">Publications</a>
+                                  <a class="nav-item nav-link"href="presentations.html">Presentations</a>
+                                  <a class="nav-item nav-link"href="funding.html">Funding</a>
+                                  <a class="nav-item nav-link"href="contact.html">Contact</a>
+                
               </div>
             </div>
           </nav>
-      {% endblock %}
+      
+
+<h1 class="display-4 my-5">About</h1>
+
+<p>PRECEPT – PRostatE CancEr Prognosis and Treatment: <a href="assets/img/precept_about_slides.pdf">Overview of the project (PDF)</a>.</p>
+
       </div> <!-- container -->
 
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -54,4 +49,3 @@
       <script src="assets/js/details-element-polyfill.js"></script>
   </body>
 </html>
-
