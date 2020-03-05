@@ -98,6 +98,14 @@
        <p>Katie Owen is a postdoctoral research fellow in the Parker laboratory at the Peter MacCallum Cancer Centre, headed by Associate Professor Belinda Parker. As an active member of both PRECEPT and the international prostate cancer research consortium, ProMis, Katie’s work focuses on understanding the immunoregulatory mechanisms that govern bone metastasis in castrate-resistant prostate cancer, including tumour cell dormancy and the eventual outgrowth of prostate cancer cells in the bone microenvironment. Her research has identified that suppression of a key innate immune signalling pathway in prostate cancer cells in bone impacts both bone homeostasis and immune surveillance mechanisms to engender a tumour-permissive niche. These findings have led to the development of a novel immune-based combinatorial approaches that decrease bone-metastatic outgrowth and enhance the effectiveness of agents solely aimed at systemic immune activation by increasing tumour cell immunogenicity. Stemming from this research, she is now working on the development of targetable immune signalling biomarkers of bone metastasis and is investigating how therapeutic induction of tumour-intrinsic immune pathways impacts prostate cancer diagnosis, risk stratification and patient outcome—a line of investigation that will be utilised in the PRECEPT program.</p>
 
 -
+    name: Miss Bethany Campbell 
+    photo: assets/img/bethany_campbell.jpg
+    role: Research Assistant  
+    affiliation: The University of Melbourne 
+    career: |
+       <p>Bethany is a research assistant in the Hovens/Corcoran research laboratory. She graduated from Monash University with a Bachelor of Biomedical Science Advanced with Honours in 2020. She has worked on multiple projects and has experience with multiple cancer models and numerous biochemical and molecular biology techniques. She has recently moved to the University of Melbourne where her research is focused on prostate cancer prognosis and treatment.</p>
+
+-
     name: Mr Breon Feran 
     photo: assets/img/breon_feran.jpg
     role: Research Assistant  
