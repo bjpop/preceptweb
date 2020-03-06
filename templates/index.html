@@ -36,37 +36,17 @@
 
   <div class="card">
     <div class="card-body">
-      <h4 class="card-title">Recent presentations</h4>
-      <p class="card-text">
-        <ul>
-            {% for presentation in presentations %}
-	    <li>{{ presentation.title }} {% if presentation.event %}, {{ presentation.event }} {% endif %} {% if presentation.date %}, {{ presentation.date }}{% endif %}</li>
-            {% endfor %}
-        </ul>
-      </p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted"><a href="presentations.html">View all presentations</a></small>
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-body">
-      <h4 class="card-title">Recent publications</h4>
+      <h4 class="card-title">Recent publications and presentations</h4>
         <p class="card-text">
           <ul>
-            {% for publication in publications %}
-               {% if publication.url %}
-                 <li><a href="{{ publication.url }}">{{ publication.title }}</a>, {{ publication.journal }}, {{ publication.year }}.</li>
-               {% else %}
-                 <li>{{ publication.title }}, {{ publication.journal }}, {{ publication.year }}.</li>
-               {% endif %}
+            {% for entry in publications_presentations %}
+               <li>{{ entry.item }}</li>
             {% endfor %}
           </ul>
         </p>
     </div>
     <div class="card-footer">
-      <small class="text-muted"><a href="publications.html">View all publications</a></small>
+      <small class="text-muted"><a href="publications_presentations.html">View all publications and presentations</a></small>
     </div>
   </div>
 

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Publications and Presentations{% endblock %}
+{% set active_page = "publications_presentations" %}
+{% block content %}   
+{{ super () }}
+
+<h1 class="display-4 my-5">Publications and Presentations</h1>
+
+  {% for entry in contents %}
+    
+      <ul>
+      <li>
+          {{ entry.item }} 
+      </li>
+    </ul>
+
+
+  {% endfor %}
+
+{% endblock %}

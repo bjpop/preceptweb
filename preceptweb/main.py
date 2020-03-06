@@ -25,9 +25,7 @@ DEFAULT_TEMPLATES_DIR = 'templates'
 DEFAULT_OUTPUT_DIR = 'docs' 
 PROGRAM_NAME = "preceptweb"
 # Number of latest publications to show on index.html
-MAX_LATEST_PUBLICATIONS = 3
-# Number of latest presentations to show on index.html
-MAX_LATEST_PRESENTATIONS = 3
+MAX_LATEST_PUBLICATIONS_PRESENTATIONS = 3
 # Number of latest activities to show on index.html
 MAX_LATEST_ACTIVITIES = 4
 
@@ -126,33 +124,15 @@ def render_page(options, jinja_env, template, transform, contents_filename=None)
     with open(output_filename, 'w') as output_file:
         output_file.write(html)
 
-
-# Group all the publications into [(year, publications_in_year)]
-def publications_by_year(publications):
-    year_map = {}
-    for this_publication in publications:
-        this_year = this_publication['year']
-        if this_year in year_map:
-            year_map[this_year].append(this_publication)
-        else:
-            year_map[this_year] = [this_publication]
-    year_assoc_list = year_map.items()
-    return sorted(year_assoc_list, reverse=True)
-
-def latest_publications(publication_list):
-    sorted_publications = [pub for (_year, pubs) in publications_by_year(publication_list) for pub in pubs]
-    return sorted_publications[:MAX_LATEST_PUBLICATIONS]
-
-def latest_presentations(presentation_list):
+def latest_publications_presentations(items):
     # we assume the presentation list is kept in date sorted order in the YAML file
     # so we don't need to sort it here
-    return presentation_list[:MAX_LATEST_PRESENTATIONS]
+    return items[:MAX_LATEST_PUBLICATIONS_PRESENTATIONS]
 
 def render_pages(options, jinja_env):
     Template("index.html") \
         .add_content("contents", options.templates, "index.yaml") \
-        .add_content("publications", options.templates, "publications.yaml", latest_publications) \
-        .add_content("presentations", options.templates, "presentations.yaml", latest_presentations) \
+        .add_content("publications_presentations", options.templates, "publications_presentations.yaml", latest_publications_presentations) \
         .add_content("media_events", options.templates, "media_events.yaml", lambda xs: xs[:MAX_LATEST_ACTIVITIES]) \
         .render_page(jinja_env, options.outdir)
 
@@ -168,12 +148,8 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "contact.yaml") \
         .render_page(jinja_env, options.outdir)
 
-    Template("publications.html") \
-        .add_content("contents", options.templates, "publications.yaml", publications_by_year) \
-        .render_page(jinja_env, options.outdir)
-
-    Template("presentations.html") \
-        .add_content("contents", options.templates, "presentations.yaml") \
+    Template("publications_presentations.html") \
+        .add_content("contents", options.templates, "publications_presentations.yaml") \
         .render_page(jinja_env, options.outdir)
 
     Template("team.html") \
