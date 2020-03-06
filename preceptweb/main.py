@@ -153,7 +153,7 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "index.yaml") \
         .add_content("publications", options.templates, "publications.yaml", latest_publications) \
         .add_content("presentations", options.templates, "presentations.yaml", latest_presentations) \
-        .add_content("activities", options.templates, "activities.yaml", lambda xs: xs[:MAX_LATEST_ACTIVITIES]) \
+        .add_content("media_events", options.templates, "media_events.yaml", lambda xs: xs[:MAX_LATEST_ACTIVITIES]) \
         .render_page(jinja_env, options.outdir)
 
     Template("about.html") \
@@ -180,8 +180,12 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "team.yaml") \
         .render_page(jinja_env, options.outdir)
 
-    Template("activities.html") \
-        .add_content("contents", options.templates, "activities.yaml") \
+    Template("media_events.html") \
+        .add_content("contents", options.templates, "media_events.yaml") \
+        .render_page(jinja_env, options.outdir)
+    
+    Template("patient_involvement.html") \
+        .add_content("contents", options.templates, "patient_involvement.yaml") \
         .render_page(jinja_env, options.outdir)
 
 
