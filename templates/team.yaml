@@ -27,6 +27,16 @@
        <p>The Cancer Consumer Advisory Committee provides advice, guidance and insights to enable strategic connections, research and clinical project partnering, knowledge and information sharing, and a consumer point-of-view.</p><p>Committee Chair, Sophy Athan has a strong interest and varied experience in advocating in the health sector. She is passionate about improving the patient experience and patient health outcomes.</p><p>She has presented at conferences and scientific forums, contributed to several strategic initiatives, and provided strategic direction for the Victorian Comprehensive Cancer Centre (VCCC) and our alliance members.</p><p>Ms Athan is a Director of her own company. She was previously a senior public servant in both state and local governments.</p>
 
 -
+    name:  Professor Tony Papenfuss 
+    photo: assets/img/tony_papenfuss.jpg
+    role: Chief Investigator 
+    affiliation: Walter and Eliza Hall Institute of Medical Research and Peter MacCallum Cancer Centre 
+    url: <a href="https://www.wehi.edu.au/people/tony-papenfuss">https://www.wehi.edu.au/people/tony-papenfuss</a>
+    career: |
+       <p>Professor Tony Papenfuss is a computational biologist and bioinformatics researcher. He leads a research laboratory in the Bioinformatics Division at the Walter and Eliza Hall Institute of Medical Research (since 2010), where he is also the Theme Leader for Computational Biology. He has held a joint appointment as a group leader at the Peter MacCallum Cancer Centre (since 2013), where he established the Computational Cancer Biology Program and remains Co-head of this program. In 2017, Professor Papenfuss was appointed to be a Professor at the University of Melbourne in the Department of Medical Biology and the Sir Peter MacCallum Department of Oncology. Professor Papenfuss also led the establishment of the Australian Bioinformatics and Computational Biology Society Inc—our national peak body and professional society. He was founding President (2014-2018) and is the current Past President.</p><p> Professor Papenfuss’ research involves the development of novel computational methods to analyse and make sense of cancer '-omics' data, and he applies these methods to make new discoveries. A major focus of his work is cancer evolution, particularly in melanoma. He and his team are also interested in complex genomic rearrangements and the mechanisms underlying extreme amplification in genomes. His team has developed novel methods to identify these rearrangements that are amongst the current state-of-the-art. With this approach, his team recently discovered the dynamic mechanisms underlying the formation of giant cancer-associated neochromosomes, and have characterised how melanoma evolves.</p>
+
+
+-
     name:  Professor Paul Boutros 
     photo: assets/img/paul_boutros.jpg
     role: Chief Investigator 
@@ -72,6 +82,16 @@
        <p>Assoc Prof Parker holds a Senior Faculty position at the Peter MacCallum Cancer Centre, where she leads the Cancer Microenvironment and Immunotherapy laboratory and currently holds a Victorian Cancer Agency Mid-Career Fellowship for her translational cancer immunology research (2017-2021). After obtaining her PhD in 2002, Dr Parker began postdoctoral training in the Department of Oncology at Johns Hopkins University, USA prior to returning to Australia to work on cell specific mechanisms of breast cancer metastasis at the Peter MacCallum Cancer Centre, where she was promoted to Team Leader in 2012 and moved to La Trobe Institute for Molecular Science as a group leader and co-leader of the Cancer Theme in 2013.</p><p>A/Prof Parker’s research group has a particular interest in crosstalk between tumour cells and immune effector and suppressor cells, with a key focus on tumour inherent type I IFN signalling and precision immunotherapeutic approaches in breast and prostate cancer, including combination immunotherapy trials in preclinical metastasis models and biomarker development in clinical trials. Apart from research funding from NHMRC, CCV and PCFA, she has secured commercial collaborations and was awarded a VMRAF grant to trial IFN inducers in TNBC. A/Prof Parker has received awards and fellowships throughout her career: NHMRC Career Development Award Level 1 (2009-2013); La Trobe Research Excellence Award (2013); ARC Future Fellowship (2014-2017); and Joseph Sambrook Award for Research Excellence (Peter Mac) in 2015. Dr Parker will dedicate 20% of her research time to this project application. Dr Parker is a midcareer researcher with an established international reputation in the field of immune regulation of metastatic spread in particular in the bone microenvironment where her group has made a number of seminal discoveries.</p>
 
 -
+    name: Associate Professor Daniel Park 
+    photo: assets/img/daniel_park.jpg
+    role: Chief Investigator 
+    affiliation: The University of Melbourne 
+    url: <a href="https://www.findanexpert.unimelb.edu.au/display/person8653">https://www.findanexpert.unimelb.edu.au/display/person8653</a>
+    career: |
+       <p>Danny Park is a molecular biologist and bioinformatician. He is the Academic Lead of a team of expert bioinformaticians at Melbourne Bioinformatics, The University of Melbourne. He has contributed over 80 original research articles, patents and book chapters in titles including Nature Genetics, Cancer Discovery and American Journal of Human Genetics, as well as field-leading technical journals such as BioTechniques, Analytical Biochemistry and BMC Bioinformatics. This work has been supported by numerous competitive research grants, including awards from NIH, NHMRC and CCV. Danny’s methods relating to enhanced solid-phase PCR and targeted DNA sequencing are in widespread use in clinical diagnostics and discovery, and include TGA-certified commercial products.</p><p>Danny’s research interests include cancer genetics, targeted sequencing applications, cancer immunology and relationships between mutations and protein function effects.</p>
+
+
+-
     name: Associate Professor Bernard Pope
     photo: assets/img/bernie_pope_bw.jpg
     role: Chief Investigator 
@@ -107,6 +127,14 @@
     career: |
         <p>Dr Jung is currently employed as a Research Scientist at Melbourne Bioinformatics (formerly known as Victorian Life Sciences Computation Initiative; VLSCI), the University of Melbourne since 2011, after finishing his PhD at the Institute of Molecular Biosciences, the University of Queensland. Prior to the PhD, he worked for Macrogen Inc., Korea as a founding member of the company’s Bioinformatics team, where he played a key role in setting up the bioinformatics analysis procedures for high throughput sequencing data and helped the company gain a national and international reputation for their bioinformatics services.  For the first several years at Melbourne Bioinformatics, Dr Jung had worked closely with Genetic Epidemiology Laboratory, University of Melbourne (GEL), Cancer Council Victoria (CCV) for the analysis of epigenetic and genetic risk factors associated with various diseases including cancers. From 2018, Dr Jung started collaboration with Prof Christopher Hovens and A/Prof Niall Corcoran of the Royal Melbourne Hospital, and has been an active player at the Australian node of Pan-Prostate Cancer Group, an international consortium for prostate cancer study.  Dr Jung has published over 35 papers across his career, which have been cited more than 1000 times.</p>
 
+-
+    name: Dr Justin Bedő 
+    photo: assets/img/justin_bedo.jpg
+    role: Post-doctoral researcher  
+    affiliation: Walter and Eliza Hall Institute of Medical Research
+    url: 
+    career: |
+       <p>Dr Justin Bedő studied Software Engineering at the Australian National University receiving his bachelor degree in 2004. In 2009, he was awarded a PhD by the ANU in the area of Machine Learning. His PhD investigated novel machine learning algorithms applied to bioinformatics problem, in particular plant breeding and cancer genomics. From 2008–2014 he was a researcher in the Diagnostic Genomics group at NICTA, continuing his research into data mining techniques with applications to the medical and agriculture sector. During 2010–2012, Dr Bedő was also a Postdoctoral Fellow at IBISC, France, working on dynamical systems modelling. Dr Bedő worked in industry experience at IBM Research Australia from 2014–2016 before commencing at the Walter and Eliza Hall Institute as the Stafford Fox Centenary Fellowship in Bioinformatics and Computational Biology for Rare Cancers in 2016.</p>
 
 -
     name: Dr Katie Louise Owen 
