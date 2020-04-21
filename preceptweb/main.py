@@ -164,6 +164,10 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "patient_involvement.yaml") \
         .render_page(jinja_env, options.outdir)
 
+    Template("collaboration.html") \
+        .add_content("contents", options.templates, "collaboration.yaml") \
+        .render_page(jinja_env, options.outdir)
+
 
 def identity(x):
     return x
