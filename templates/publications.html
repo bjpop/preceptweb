@@ -6,12 +6,8 @@
 
 <h1 class="display-4 my-5">Publications</h1>
 
-{% for (year, papers) in contents %}
+{% for paper in contents %}
 
-  <h3 class="my-5">{{ year }}</h3>
-
-  {% for paper in papers %}
-    
     <ul style="list-style-type:none">
       <li>
         <details>
@@ -73,6 +69,5 @@
       </li>
     </ul>
 
-  {% endfor %}
 {% endfor %}
 {% endblock %}

@@ -144,13 +144,21 @@ def render_pages(options, jinja_env):
         .add_content("contents", options.templates, "funding.yaml") \
         .render_page(jinja_env, options.outdir)
 
+    Template("publications.html") \
+        .add_content("contents", options.templates, "publications.yaml") \
+        .render_page(jinja_env, options.outdir)
+
+    Template("presentations.html") \
+        .add_content("contents", options.templates, "presentations.yaml") \
+        .render_page(jinja_env, options.outdir)
+
     Template("contact.html") \
         .add_content("contents", options.templates, "contact.yaml") \
         .render_page(jinja_env, options.outdir)
 
-    Template("publications_presentations.html") \
-        .add_content("contents", options.templates, "publications_presentations.yaml") \
-        .render_page(jinja_env, options.outdir)
+    #Template("publications_presentations.html") \
+    #    .add_content("contents", options.templates, "publications_presentations.yaml") \
+    #    .render_page(jinja_env, options.outdir)
 
     Template("team.html") \
         .add_content("contents", options.templates, "team.yaml") \

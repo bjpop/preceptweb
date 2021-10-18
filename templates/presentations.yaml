@@ -1,6 +1,95 @@
-- title: "PRECEPT – PRostatE CancEr Prognosis and Treatment"
-  authors: [Niall Corcoran]
-  media:
-     - url: assets/img/precept_about_slides.pdf
-       title: "PDF slides"
-  abstract: An overview of the PRECEPT project
+- title: "Detecting circulating tumour DNA in localized prostate cancer"
+  event: "University of Melbourne Centre for Cancer Research (UMCCR) seminar series" 
+  location: Online
+  authors:
+    - Bernie Pope
+  date: 28 July 2021
+  kind: Oral presentation
+
+- title: "Patient preferences for biomarkers for localised prostate cancer"
+  event: "12th Meeting of the International Academy of Health Preference Research (IAHPR)"
+  location: 
+  authors:
+    - Riccarda Peters  
+  date: 23 June 2021 
+  kind: Oral presentation
+
+- title: "Using simulation models to optimize the development and use of oncology innovations"
+  event: Victorian Comprehensive Cancer Centre Alliance 
+  location: 
+  authors:
+    - Koen Degeling 
+  date: 19 April 2021 
+  kind: Oral presentation
+
+- title: "Restoring crosstalk between tumour and immune cells to prevent metastatic recurrence" 
+  event: Cancer Invasion & Metastasis Program 
+  location: Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins 
+  authors:
+    - Belinda Parker 
+  date: 17 March 2021 
+  kind: Oral presentation 
+
+- title: "Somatic variant calling in whole genome sequencing, opportunities, challenges and solutions"  
+  event: Monash Partners Comprehensive Cancer Consortium Tech Talks
+  location: 
+  authors:
+    - Bernie Pope 
+  date: 20 November 2020  
+  kind: Oral presentation 
+
+- title: "Enhancing tumour-intrinsic immune signalling to prevent the spread of cancer cells to bone"
+  event: 8th Australasian Vaccines & Immunotherapeutics Development conference 
+  location: 
+  authors:
+    - Katie Owen 
+  date: 9 November 2020  
+  kind: Oral presentation 
+
+- title: Detection of ctDNA in Plasma of Patients with Clinically Localised Prostate Cancer is Associated with Rapid Disease Progression
+  event: Victorian Cancer Bionformatics Symposium 
+  location: 
+  authors:
+    - Bernie Pope 
+  date: 28 October 2020  
+  kind: Poster 
+
+- title: Restoring interactions between tumour and immune cells to combat metastasis 
+  event: VCCC Molecular Tumour Board 
+  location: 
+  authors:
+    - Belinda Parker 
+  date: 16 October 2020 
+  kind: Oral presentation 
+
+- title: Loss of tumour-intrinsic IFN signalling drives bone-metastatic outgrowth in prostate cancer
+  event: 32nd Lorne Cancer Conference 
+  location:  
+  authors:
+    - Katie Owen  
+  date: 13 Feb 2020 
+  kind: Oral presentation 
+
+- title: New approaches to restoring anti-tumour immunity
+  event: "9th Barossa Meeting: Cell Signalling in Cancer Medicine"
+  location:  
+  authors:
+    - Belinda Parker  
+  date: 13 November 2019 
+  kind: Oral presentation 
+
+- title: Tumour-inherent immune biomarkers for personalised immunotherapy 
+  event: CTx- MSD Drug Discovery & Development in Oncology Symposium 2019 
+  location:  
+  authors:
+    - Belinda Parker 
+  date: 28 October 2019 
+  kind: Oral presentation 
+
+- title: Tumour-intrinsic immune signals in dictating metastasis 
+  event: 20th Asia-Pacific Prostate Cancer Conference 
+  location:  
+  authors:
+    - Belinda Parker 
+  date: 26 August 2019  
+  kind: Oral presentation 
