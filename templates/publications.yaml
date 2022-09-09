@@ -1,4 +1,63 @@
 - abstract: |
+      <p>Background</p><p>Disease recurrence is common following prostatectomy in patients with localised prostate cancer with high-risk features. Although androgen deprivation therapy increases the rates of organ-confined disease and negative surgical margins, there is no significant benefit on disease recurrence. Multiple lines of evidence suggest that FGF/FGFR signalling is important in supporting prostate epithelial cell survival in hostile conditions, including acute androgen deprivation. Given the recent availability of oral FGFR inhibitors, we investigated whether combination therapy could improve tumour response in the neo-adjuvant setting.</p><p>Methods</p><p>We conducted an open label phase II study of the combination of erdafitinib (3 months) and androgen deprivation therapy (4 months) in men with localised prostate cancer with high-risk features prior to prostatectomy using a Simon's two stage design. The co-primary endpoints were safety and tolerability and pathological response in the prostatectomy specimen. The effect of treatment on residual tumours was explored by global transcriptional profiling with RNA-sequencing.</p><p>Results</p><p>Nine patients were enrolled in the first stage of the trial. The treatment combination was poorly tolerated. Erdafitinib treatment was discontinued early in 6 patients, three of whom also required dose interruptions/reductions. Androgen deprivation therapy for 4 months was completed in all patients. The most common adverse events were hyperphosphataemia, taste disturbance, dry mouth and nail changes. No patients achieved a complete pathological response, although patients who tolerated erdafitinib for longer had smaller residual tumours, associated with reduced transcriptional signatures of epithelial cell proliferation.</p><p>Conclusions</p><p>Although there was a possible enhanced anti-tumour effect of androgen deprivation therapy in combination with erdafitnib in treatment naïve prostate cancer, the poor tolerability in this patient population prohibits the use of this combination in this setting.</p><p>Clinical Practice Points</p><p>Disease recurrence is common following prostatectomy in patients with localised prostate cancer with high-risk features. Although androgen deprivation therapy increases the rates of organ-confined disease and negative surgical margins, there is no significant benefit on disease recurrence. Multiple lines of evidence suggest that FGF/FGFR signalling is important in supporting prostate epithelial cell survival in hostile conditions, including acute androgen deprivation. We conducted an open label phase II study of the combination of erdafitinib (3 months) and androgen deprivation therapy (4 months) in men with localised prostate cancer with high-risk features prior to prostatectomy using a Simon's two stage design. The co-primary endpoints were safety and tolerability and pathological response in the prostatectomy specimen. The treatment combination was poorly tolerated. The most common adverse events were hyperphosphataemia, taste disturbance, dry mouth and nail changes. No patients achieved a complete pathological response, although patients who tolerated erdafitinib for longer had smaller residual tumours, associated with reduced transcriptional signatures of epithelial cell proliferation. Although there was a possible enhanced anti-tumour effect of androgen deprivation therapy in combination with erdafitnib in treatment naïve prostate cancer, the poor tolerability in this patient population prohibits the use of this combination in this setting.</p>
+  authors: [Elizabeth Liow, Nicholas Howard, Chol-Hee Jung, Bernard Pope, Bethany K. Campbell, Anne Nguyen, Michael Kerger, Jonathan B. Ruddle, Angelyn Anton, Benjamin Thomas, Kevin Chu, Philip Dundee, Justin S. Peters, Anthony J. Costello, Andrew S. Ryan, Christopher M. Hovens, Ben Tran,  Niall M. Corcoran]
+  date: May 18 2022
+  doi: 10.1016/j.clgc.2022.05.007
+  issue:
+  journal: Clinical Genitourinary Cancer
+  keywords: "High-risk Prostate Cancer; Neoadjuvant therapy; FGFR Inhibition; Androgen Deprivation Therapy; Phase 2 Study"
+  pmid:
+  title: "Phase 2 Study of Neoadjuvant FGFR Inhibition and Androgen Deprivation Therapy Prior to Prostatectomy"
+  type: Journal Article
+  url: "https://doi.org/10.1016/j.clgc.2022.05.007"
+  volume:
+  year: '2022'
+
+- abstract: |
+  authors: [Riccarda Peters, Sophy Athan]
+  date: November 2021  
+  doi: 
+  issue: 
+  journal: Research Australia, Inspire Magazine
+  keywords: 
+  pmid: 
+  title: "Patient-Empowered Research in Prostate Cancer. The Case of PRECEPT."
+  type: 
+  url: 
+  volume: 
+  year: 2021 
+
+- abstract: |
+      <p>Objectives: To estimate the lifetime health and economic outcomes of selecting active surveillance (AS), radical prostatectomy (RP), or radiation therapy (RT) as initial management for low- or favorable-risk localized prostate cancer.</p><p>Methods: A discrete-event simulation model was developed using evidence from published randomized trials. Health outcomes were measured in life-years and quality-adjusted life-years (QALYs). Costs were included from a public payer perspective in Australian dollars. Outcomes were discounted at 5% over a lifetime horizon. Probabilistic and scenario analyses quantified parameter and structural uncertainty.</p><p>Results: A total of 60% of patients in the AS arm eventually received radical treatment (surgery or radiotherapy) compared with 90% for RP and 91% for RT. Although AS resulted in fewer treatment-related complications, it led to increased clinical progression (AS 40.7%, RP 17.6%, RT 19.9%) and metastatic disease (AS 13.4%, RP 6.1%, RT 7.0%). QALYs were 10.88 for AS, 11.10 for RP, and 11.13 for RT. Total costs were A$17 912 for AS, A$15 609 for RP, and A$15 118 for RT. At a willingness to pay of A$20 000/QALY, RT had a 61.4% chance of being cost-effective compared to 38.5% for RP and 0.1% for AS.</p><p>Conclusions: Although AS resulted in fewer and delayed treatment-related complications, it was not found to be a cost-effective strategy for favorable-risk localized prostate cancer over a lifetime horizon because of an increase in the number of patients developing metastatic disease. RT was the dominant strategy yielding higher QALYs at lower cost although differences compared with RP were small.</p>
+  authors: [Koen Degeling, Niall M Corcoran, Amanda Pereira-Salgado, Anis A Hamid, Shankar Siva, Maarten J IJzerman]
+  date: December 2021  
+  doi: 10.1016/j.jval.2021.06.004 
+  issue: 12 
+  journal: Value in Health
+  keywords: "active monitoring; active surveillance; cost-effectiveness; cost-utility; discrete-event simulation; health economics; localized prostate cancer; modeling; radiation therapy; radical prostatectomy; radiotherapy; simulation"
+  pmid: 34838271 
+  title: "Lifetime Health and Economic Outcomes of Active Surveillance, Radical Prostatectomy, and Radiotherapy for Favorable-Risk Localized Prostate Cancer"
+  type: 
+  url: https://doi.org/10.1016/j.jval.2021.06.004 
+  volume: 24 
+  year: 2021 
+
+- abstract: |
+      <p>The accurate identification and effective removal of unwanted variation are essential to derive meaningful biological results from RNA-seq data, especially when the data come from large and complex studies. We have used The Cancer Genome Atlas (TCGA) RNA-seq data to show that library size, batch effects, and tumor purity are major sources of unwanted variation across all TCGA RNA-seq datasets and that existing gold standard approaches to normalizations fail to remove this unwanted variation. Additionally, we illustrate how different sources of unwanted variation can compromise downstream analyses, including gene co-expression, association between gene expression and survival outcomes, and cancer subtype identifications. Here, we propose the use of a novel strategy, pseudo-replicates of pseudo-samples (PRPS), to deploy the Removing Unwanted Variation III (RUV-III) method to remove different sources of unwanted variation from large and complex gene expression studies. Our approach requires at least one roughly known biologically homogenous subclass of samples shared across sources of unwanted variation. To create PRPS, we first need to identify the sources of unwanted variation, which we will call batches in the data. Then the gene expression measurements of biologically homogeneous sets of samples are averaged within batches, and the results called pseudo-samples. Pseudo-samples with the same biology and different batches are then defined to be pseudo-replicates and used in RUV-III as replicates. The variation between pseudo-samples of a set pseudo-replicates is mainly unwanted variation. We illustrate the value of our approach by comparing it to the TCGA normalizations on several TCGA RNA-seq datasets. RUV-III with PRPS can be used for any large genomics project involving multiple labs, technicians, or platforms.</p>
+  authors: [Ramyar Molania, Momeneh Foroutan, Johann A. Gagnon-Bartsch, Luke Gandolfo, Gavriel Olshansky, Alexander Dobrovic, Anthony T Papenfuss, Terence P Speed]
+  date: 3 November 2021   
+  doi: 10.1101/2021.11.01.466731 
+  issue: 
+  journal: bioRxiv 
+  keywords: 
+  pmid: 
+  title: "Removing unwanted variation from large-scale cancer RNA-sequencing data" 
+  type: 
+  url: https://doi.org/10.1101/2021.11.01.466731 
+  volume: 
+  year: 2021 
+
+- abstract: |
       <p>Context</p><p>Several liquid- and tissue-based biomarker tests (LTBTs) are available to inform the need for prostate biopsies and treatment of localised prostate cancer (PCa) through risk stratification, but translation into routine practice requires evidence of their clinical utility and economic impact.</p><p>Objective</p><p>To review and summarise the health economic evidence on the ability of LTBTs to inform decisions on prostate biopsies and treatment of localised PCa through risk stratification.</p><p>Evidence acquisition</p><p>A systematic search was performed in the EMBASE, MEDLINE, Health Technology Assessment, and National Health Service Health Economic Evaluation databases. Eligible publications were those presenting health economic evaluations of an LTBT to select individuals for biopsy or risk-stratify PCa patients for treatment. Data on the study objectives, context, methodology, clinical utility, and outcomes were extracted and summarised.</p><p>Evidence synthesis</p><p>Of the 22 studies included, 14 were focused on test-informed biopsies and eight on treatment selection. Most studies performed cost-effectiveness analyses (n = 7), followed by costing (n = 4) or budget impact analyses (n = 3). Most (18 of 22) studies concluded that biomarker tests could decrease health care costs or would be cost-effective. However, downstream consequences and long-term outcomes were typically not included in studies that evaluated LTBT to inform biopsies. Long-term effectiveness was modelled by linking evidence from different sources instead of using data from prospective studies.</p><p>Conclusions</p><p>Although studies concluded that LTBTs would probably be cost-saving or -effective, the strength of this evidence is disputable because of concerns around the validity and transparency of the assumptions made. This warrants prospective interventional trials to inform health economic analyses to ensure collection of direct evidence of clinical outcomes based on LTBT use.</p><p>Patient summary</p><p>We reviewed studies that evaluated whether blood, urine, and tissue tests can reduce the health and economic burden of prostate cancer. Results indicate that these tests could be cost-effective, but clinical studies of long-term outcomes are needed to confirm the findings.</p>
   authors: [Koen Degeling, Amanda Pereira-Salgado, Niall M.Corcoran, Paul C.Boutros, Peter Kuhnk, Maarten J.IJzerman]
   date: 1 January 2020 
